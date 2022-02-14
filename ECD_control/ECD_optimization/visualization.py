@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import ECD_control.ECD_optimization.tf_quantum as tfq
+from . import tf_quantum as tfq
 import qutip as qt
 
 

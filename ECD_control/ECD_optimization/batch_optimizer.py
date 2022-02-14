@@ -13,8 +13,8 @@ print(
     + tf.__version__
     + "\n"
 )
-import ECD_control.ECD_optimization.tf_quantum as tfq
-from ECD_control.ECD_optimization.visualization import VisualizationMixin
+from . import tf_quantum as tfq
+from .visualization import VisualizationMixin
 import qutip as qt
 import datetime
 import time
